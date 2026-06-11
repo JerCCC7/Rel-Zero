@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relzero"
+version = "0.1.0"
+description = "Rel-Zero: relational zero-watermarking against generative AI editing"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "torch",
+  "torchvision",
+  "timm",
+  "diffusers",
+  "Pillow",
+  "matplotlib",
+  "numpy",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,54 @@
+{
+  "pairs": [
+    {
+      "name": "instruct_pix2pix_2_248435",
+      "original": "../examples/test_pairs/instruct_pix2pix_2_248435/original.png",
+      "edited": "../examples/test_pairs/instruct_pix2pix_2_248435/edited.png"
+    },
+    {
+      "name": "instruct_pix2pix_7_248876",
+      "original": "../examples/test_pairs/instruct_pix2pix_7_248876/original.png",
+      "edited": "../examples/test_pairs/instruct_pix2pix_7_248876/edited.png"
+    },
+    {
+      "name": "instruct_pix2pix_13_249548",
+      "original": "../examples/test_pairs/instruct_pix2pix_13_249548/original.png",
+      "edited": "../examples/test_pairs/instruct_pix2pix_13_249548/edited.png"
+    },
+    {
+      "name": "instruct_pix2pix_16_249888",
+      "original": "../examples/test_pairs/instruct_pix2pix_16_249888/original.png",
+      "edited": "../examples/test_pairs/instruct_pix2pix_16_249888/edited.png"
+    },
+    {
+      "name": "sto_regeneration_14_1641",
+      "original": "../examples/test_pairs/sto_regeneration_14_1641/original.png",
+      "edited": "../examples/test_pairs/sto_regeneration_14_1641/edited.png"
+    },
+    {
+      "name": "region_ultraedit_4_2390",
+      "original": "../examples/test_pairs/region_ultraedit_4_2390/original.png",
+      "edited": "../examples/test_pairs/region_ultraedit_4_2390/edited.png"
+    },
+    {
+      "name": "region_ultraedit_2_2334",
+      "original": "../examples/test_pairs/region_ultraedit_2_2334/original.png",
+      "edited": "../examples/test_pairs/region_ultraedit_2_2334/edited.png"
+    },
+    {
+      "name": "region_ultraedit_5_2395",
+      "original": "../examples/test_pairs/region_ultraedit_5_2395/original.png",
+      "edited": "../examples/test_pairs/region_ultraedit_5_2395/edited.png"
+    },
+    {
+      "name": "region_ultraedit_7_2403",
+      "original": "../examples/test_pairs/region_ultraedit_7_2403/original.png",
+      "edited": "../examples/test_pairs/region_ultraedit_7_2403/edited.png"
+    },
+    {
+      "name": "region_ultraedit_8_2404",
+      "original": "../examples/test_pairs/region_ultraedit_8_2404/original.png",
+      "edited": "../examples/test_pairs/region_ultraedit_8_2404/edited.png"
+    }
+  ]
+}

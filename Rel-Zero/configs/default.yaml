@@ -1,0 +1,7 @@
+checkpoint: checkpoints/relzero_stage1.pth
+pairs: configs/example_pairs.json
+top_k: 50
+negative_match_prob: 0.06
+target_fpr: 0.001
+jpeg_quality: 50
+gaussian_sigma: 0.05

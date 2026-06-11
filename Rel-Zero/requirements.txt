@@ -1,0 +1,10 @@
+torch
+torchvision
+timm
+diffusers
+Pillow
+matplotlib
+numpy
+tqdm
+pycocotools
+tensorboard
