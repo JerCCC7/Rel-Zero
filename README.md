@@ -45,15 +45,27 @@ pip install -r requirements.txt
 Install a CUDA-matched PyTorch build if your environment needs a specific CUDA
 version.
 
-## Checkpoint
+## Pretrained Checkpoint
 
-Place a trained checkpoint under:
+Download the pretrained checkpoint from Hugging Face:
 
-```text
-checkpoints/relzero_stage1.pth
+- [REL-ZERO checkpoint.pth](https://huggingface.co/JERCCC/REL-ZERO/resolve/main/checkpoint.pth?download=true)
+
+Download with `wget`:
+
+```bash
+mkdir -p checkpoints
+wget -O checkpoints/checkpoint.pth \
+  "https://huggingface.co/JERCCC/REL-ZERO/resolve/main/checkpoint.pth?download=true"
 ```
 
-or pass its path explicitly with `--checkpoint`.
+The evaluation examples below assume the checkpoint is saved as:
+
+```text
+checkpoints/checkpoint.pth
+```
+
+You can also pass any local checkpoint path explicitly with `--checkpoint`.
 
 The expected checkpoint format is:
 
@@ -92,7 +104,7 @@ checkpoints/relzero_train/best_stage1.pth
 
 ```bash
 python tools/evaluate_pairs.py \
-  --checkpoint checkpoints/relzero_stage1.pth \
+  --checkpoint checkpoints/checkpoint.pth \
   --pairs configs/example_pairs.json \
   --device cuda:0 \
   --negative-match-prob 0.06 \
@@ -104,7 +116,7 @@ Optional edge visualizations:
 
 ```bash
 python tools/evaluate_pairs.py \
-  --checkpoint checkpoints/relzero_stage1.pth \
+  --checkpoint checkpoints/checkpoint.pth \
   --pairs configs/example_pairs.json \
   --save-vis
 ```
@@ -113,7 +125,7 @@ python tools/evaluate_pairs.py \
 
 ```bash
 python tools/evaluate_noise.py \
-  --checkpoint checkpoints/relzero_stage1.pth \
+  --checkpoint checkpoints/checkpoint.pth \
   --pairs configs/example_pairs.json \
   --device cuda:0 \
   --jpeg-quality 50 \
