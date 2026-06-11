@@ -1,7 +1,7 @@
 # Rel-Zero
 
 Official code scaffold for **Rel-Zero: Harnessing Patch-Pair Invariance for
-Robust Zero-Watermarking Against AI Editing**.
+Robust Zero-Watermarking Against AI Editing (CVPR 2026)**.
 
 Rel-Zero is a zero-watermarking method: it does **not** modify image pixels.
 Instead, it predicts a set of stable patch-pair relations from the original
