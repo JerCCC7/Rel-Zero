@@ -123,18 +123,7 @@ python tools/evaluate_noise.py \
   --output-json outputs/noise.json
 ```
 
-## Estimate Negative Matching Probability
 
-The default `negative_match_prob=0.06` is a practical setting for the bundled
-top-k example. To estimate the negative overlap on your own unrelated images:
-
-```bash
-python tools/random_edge_overlap_stats.py \
-  --checkpoint checkpoints/relzero_stage1.pth \
-  --image-dir path/to/original/images \
-  --max-images 1000 \
-  --output-json outputs/random_edge_overlap_stats.json
-```
 
 ## Metric
 
